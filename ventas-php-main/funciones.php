@@ -1,6 +1,6 @@
 <?php
 
-define("PASSWORD_PREDETERMINADA", "PacoHunterDev");
+define("PASSWORD_PREDETERMINADA", "chimayco");
 define("HOY", date("Y-m-d"));
 
 function iniciarSesion($usuario, $password){
