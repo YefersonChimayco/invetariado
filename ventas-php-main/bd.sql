@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-10-2024 a las 17:21:21
+-- Tiempo de generación: 16-10-2024 a las 17:53:30
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -84,7 +84,8 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `usuario`, `nombre`, `telefono`, `direccion`, `password`) VALUES
 (1, 'paco', 'PacoHunter', '6667771234', 'Nowhere', '$2y$10$6zeiv5cq4/HCjWBH5X/Fd.yxKfDaWa5sJaYfW302n./awI/lQcH0i'),
-(2, 'catalino', 'catalino', '987654321', 'aaaa', '$2y$10$OoE/WzipVTzFILYwEqmC8OFZVemuWeOyApvWNmgJDRZ5pSyhIV5Tu');
+(2, 'catalino', 'catalino', '987654321', 'aaaa', '$2y$10$OoE/WzipVTzFILYwEqmC8OFZVemuWeOyApvWNmgJDRZ5pSyhIV5Tu'),
+(3, 'chimayco', 'chimayco', '987564651', 'golaso', '$2y$10$vaJ1HLOYyn1nlOP10pGaE.P86WtohGNcMUhjV3ao2yu7ybgzRNikS');
 
 -- --------------------------------------------------------
 
@@ -160,7 +161,7 @@ ALTER TABLE `productos_ventas`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `ventas`
